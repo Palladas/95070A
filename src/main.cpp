@@ -32,7 +32,7 @@ okapi::imev5GreenTPR})
 //Runs this code when the program runs
 void initialize() {
 	pros::lcd::initialize();
-	pros::lcd::set_text(1, "Hello PROS User!");
+	pros::lcd::set_text(1, "95070A");
 
 	pros::lcd::register_btn1_cb(on_center_button);
 	LeftDrive.set_brake_mode(pros::E_MOTOR_BRAKE_BRAKE);
